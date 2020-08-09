@@ -1,0 +1,6 @@
+version: "2"
+services:
+  app:
+    entrypoint: ["sh", "/app/docker-entrypoint.dev.sh"]
+    stdin_open: true
+    tty: true
